@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(100, 100, 100);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: rgb(75, 87, 99);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header> <!--cabeçalho-->
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main> <!--conteudo principal-->
+        <section id="assuntos">
+            <p>Desportos, política, tecnologias</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre Portugal</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A laborum cupiditate sapiente ipsum suscipit et, officia exercitationem ducimus unde incidunt totam dolor voluptatibus quibusdam, aliquid, debitis delectus iusto dolorum dolore.</p>
+                <aside>
+                    <p>Artigo escrito por Carlos da Rosa</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer> <!--rodapé-->
+        <p>Desenvolvido por mim</p>
+    </footer>
+</body>
+</html>
